@@ -12,10 +12,13 @@
   SPI로 m개의 장치가 연결되어 있다. 
 */
 #define TX_BUF_SIZE 256
+#define RX_BUF_SIZE 1024
 
 CommProcess_t commUart;
 CommProcess_t commSpi;
+
 uint8_t txBufCommP[TX_BUF_SIZE]={0,};
+uint8_t rxBufCommP[RX_BUF_SIZE]={0,};
 
 uint8_t txDataPtrDummy=0;
 uint8_t counterDummy=0;

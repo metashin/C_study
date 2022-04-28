@@ -15,6 +15,8 @@
     uint8_t reTransCount;
   }Parameter_t;
   
+  
+  
   typedef struct 
   {
     uint8_t ready : 2;

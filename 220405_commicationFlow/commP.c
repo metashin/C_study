@@ -10,6 +10,9 @@ void initCom(CommProcess_t* cp){
   cp->para.rxCount = 0;
   cp->para.reTransCount = 0;
 }
+void initTimer(CommProcess_t cp){
+  
+}
 
 void transmit(void){
   printf("hello");

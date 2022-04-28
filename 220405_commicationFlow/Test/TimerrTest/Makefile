@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS= -c -g
 TARGET = program
-OBJECTS =  timerr.o commP.o main.o
+OBJECTS =  timerr.o timerTest.o
 
 .SUFFIXES : .c .o
 
